@@ -183,7 +183,7 @@ h3 {
 /* estilo header*/
 
 .site-header.inicio {
-    background-image: url(/public/img/1524.jpg);
+    background-image: url(img/1524.jpg);
     background-position: center center;
     background-size: cover;
     max-width: 100%;
