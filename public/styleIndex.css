@@ -1,0 +1,192 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/** GLOBALES**/
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.8rem;
+    font-family: 'Anton', sans-serif;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.tamanoFuente {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.centrar-texto h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+
+/* utilidades*/
+
+.d-block {
+    display: block!important;
+}
+
+.media {
+    width: 1325px;
+    margin: 0 auto;
+}
+
+
+/* estilo header*/
+
+.contenedor {
+    max-width: 120rem;
+    /* igual  a 1200 px*/
+    margin: 0 auto;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1 {
+    color: #ffffff;
+    padding-bottom: 2rem;
+    
+    line-height: 1.8;
+}
+
+
+.barra {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+
+/** Navegacion**/
+
+.navegacion {
+    text-align: center;
+}
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    /* 1.8 rem= 18 px*/
+    margin-right: 2rem;
+    /* separacion entre elementos*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navegacion a:hover {
+    color: #e40d66;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+.finalpagina {
+    background-color: rgb(131, 26, 96);
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+
+.seccionuno {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.organizador-uno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.separadoruno {
+    flex-basis: calc(25% - 2rem);
+}
+
+.separadoruno img {
+    border-radius: 2rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenedordos {
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.alineacionTexto {
+    text-align: left;
+}
+/*SECCION PAISES*/
+
+.seccion-paises {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.33% - 2);
+    text-align: center;
+}
+
+.icono video {
+    margin-right: 2rem;
+}
+
+.icono h3 {
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.icono p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+@media (min-width: 800px) {
+    .icono p {
+        font-size: 1.8rem;
+    }
+}
+
+.alineado {
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+}
+/* estilo header*/
+
+.site-header.inicio {
+    background-image: url(/public/img/1524.jpg);
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+
